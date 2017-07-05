@@ -1,0 +1,10 @@
+This program is a test go program that hosts a web service that echoes the url. 
+
+<url>:8080/<string>
+Hi there, I love <string>.
+
+RUN
+---
+PORT=8080 go run web.go
+
+
